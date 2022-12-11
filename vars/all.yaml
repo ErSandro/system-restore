@@ -9,3 +9,4 @@ packages:
   - alacritty
   - yt-dlp
   - picom
+  - rofi
