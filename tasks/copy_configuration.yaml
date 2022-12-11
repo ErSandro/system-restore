@@ -13,3 +13,19 @@
     owner: ersandro
     group: ersandro
     mode: u=rw,g=r,o=r
+
+- name: copy nitrogen last wallpaper config
+  copy:
+    src: files/bg-saved.cfg
+    dest: /home/ersandro/nitrogen/bg-saved.cfg
+    owner: ersandro
+    group: ersandro
+    mode: u=rw,g=r,o=r
+
+- name: copy wallpaper
+  copy:
+    src: files/wallpaper.jpeg
+    dest: /home/ersandro/Pictures/Wallpapers/wallpaper.jpeg
+    owner: ersandro
+    group: ersandro
+    mode: u=rw,g=r,o=r
