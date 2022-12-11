@@ -1,0 +1,7 @@
+- name: copy i3 config file
+  copy:
+    src: files/i3-config.conf
+    dest: /home/ersandro/.config/i3/config
+    owner: ersandro
+    group: ersandro
+    mode: u=rw,g=r,o=r

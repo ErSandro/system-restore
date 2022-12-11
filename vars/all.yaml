@@ -8,3 +8,4 @@ packages:
   - i3lock
   - alacritty
   - yt-dlp
+  - picom
