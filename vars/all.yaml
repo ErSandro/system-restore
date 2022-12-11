@@ -9,4 +9,6 @@ packages:
   - alacritty
   - yt-dlp
   - picom
+  - nitrogen
+  - telegram-desktop
   - rofi
