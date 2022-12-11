@@ -6,6 +6,5 @@
     tasks:
       - name: Install packages
         import_tasks: tasks/install_packages.yaml
-    tasks:
       - name: Copy configurations
         import_tasks: tasks/copy_configuration.yaml
