@@ -5,5 +5,4 @@
       - vars/all.yaml
     tasks:
       - name: Install packages
-        import_tasks:
-          file: tasks/install_packages.yaml
+        import_tasks: tasks/install_packages.yaml
