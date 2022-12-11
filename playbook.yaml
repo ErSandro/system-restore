@@ -1,0 +1,9 @@
+---
+  - hosts: localhost
+    become: yes
+    vars_files:
+      - vars/all.yaml
+    tasks:
+      - name: Install packages
+        import_tasks:
+          file: tasks/install_packages.yaml
